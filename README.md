@@ -24,6 +24,7 @@ first things to do when setting up a vps
 ‎11. set ufw to default deny incoming and allow outgoing (make sure to still allow port 22 incoming or else ssh will be locked out) and then enable it 
 
 ‎12. enable fail2ban 
+
 ‎13. set timezone and hostname if not yet set correctly 
 
 ‎14. enable unattended upgrades if not yet enabled
