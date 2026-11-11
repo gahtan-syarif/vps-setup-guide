@@ -7,11 +7,12 @@ first things to do when setting up a vps
 
 ‎3. change root password to a strong one if not already
 
+
 4. set timezone and hostname if not yet set correctly
 
 ‎5. Create a new user with a strong password and give it sudo privileges (if one doesn't exist yet) 
 
-‎6. update the system: apt update && apt upgrade 
+‎6. update the system: sudo apt update && sudo apt upgrade 
 
 ‎7. install basic utils: ufw, fail2ban, unattended-upgrades, micro, curl, wget, openssh-server (if not yet installed)
 
