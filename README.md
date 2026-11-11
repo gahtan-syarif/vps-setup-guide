@@ -5,7 +5,7 @@ first things to do when setting up a vps
 
 ‎2) access vps through web console 
 
-3) set timezone and hostname if not yet set correct
+3.) set timezone and hostname if not yet set correct
 
 ‎4) change root password to a strong one if not already
 
