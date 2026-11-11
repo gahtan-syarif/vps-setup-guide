@@ -1,15 +1,15 @@
 # vps-setup-guide
 first things to do when setting up a vps
 
-‎1) create the ubuntu vps (use latest available lts version) 
+‎1.) create the ubuntu vps (use latest available lts version) 
 
-‎2) access vps through web console 
+‎2.) access vps through web console 
 
-3.) set timezone and hostname if not yet set correct
+‎3.) change root password to a strong one if not already
 
-‎4) change root password to a strong one if not already
+4.) set timezone and hostname if not yet set correctly
 
-‎5) Create a new user with a strong password and give it sudo privileges (if one doesn't exist yet) 
+‎5.) Create a new user with a strong password and give it sudo privileges (if one doesn't exist yet) 
 
 ‎6) update the system: sudo apt update && sudo apt upgrade 
 
