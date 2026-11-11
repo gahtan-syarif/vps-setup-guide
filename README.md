@@ -7,28 +7,30 @@ first things to do when setting up a vps
 
 ‎3. change root password to a strong one if not already 
 
-‎4. Create a new user with a strong password and give it sudo privileges (if one doesn't exist yet) 
+4. set timezone and hostname if not yet set correctly 
 
-‎5. update the system: apt update && apt upgrade 
+‎5. Create a new user with a strong password and give it sudo privileges (if one doesn't exist yet) 
 
-‎6. install basic utils: ufw, fail2ban, unattended-upgrades, micro, curl, wget, openssh-server (if not yet installed)
+‎6. update the system: apt update && apt upgrade 
 
-‎7. Reboot if a kernel update requires it and reconnect through the web console 
+‎7. install basic utils: ufw, fail2ban, unattended-upgrades, micro, curl, wget, openssh-server (if not yet installed)
 
-‎8. install laptop's ssh public key to the user's authorized_keys if not yet installed and configure sshd config to accept public key auth 
+‎8. Reboot if a kernel update requires it and reconnect through the web console 
 
-‎9. Make sure to test the ssh connection from a separate terminal and check if public key auth is working properly 
+‎9. install laptop's ssh public key to the user's authorized_keys if not yet installed and configure sshd config to accept public key auth 
 
-‎10. configure sshd config to disable password authentication and root login and then reload sshd 
+‎10. Make sure to test the ssh connection from a separate terminal and check if public key auth is working properly 
 
-‎11. set ufw to default deny incoming and allow outgoing (make sure to still allow port 22 incoming or else ssh will be locked out) and then enable it 
+‎11. configure sshd config to disable password authentication and root login and then reload sshd 
 
-‎12. enable fail2ban 
+‎12. set ufw to default deny incoming and allow outgoing (make sure to still allow port 22 incoming or else ssh will be locked out) and then enable it 
 
-‎13. set timezone and hostname if not yet set correctly 
+‎13. enable fail2ban 
 
-‎14. enable unattended upgrades if not yet enabled
+‎14. set timezone and hostname if not yet set correctly 
+
+‎15. enable unattended upgrades if not yet enabled
  
-‎15. (optional) set up a wireguard vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the wireguard interface/subnet 
+‎16. (optional) set up a wireguard vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the wireguard interface/subnet 
 ‎
 ‎
