@@ -27,10 +27,8 @@ first things to do when setting up a vps
 
 ‎13. enable fail2ban 
 
-‎14. set timezone and hostname if not yet set correctly 
-
-‎15. enable unattended upgrades if not yet enabled
+‎14. enable unattended upgrades if not yet enabled
  
-‎16. (optional) set up a wireguard vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the wireguard interface/subnet 
+‎15. (optional) set up a wireguard vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the wireguard interface/subnet 
 ‎
 ‎
