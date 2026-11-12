@@ -26,5 +26,7 @@ first things to do when setting up a vps
 ‎12.) install and enable unattended-upgrades
  
 ‎13.) (optional) set up a wireguard (or other) vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the wireguard interface/subnet 
+
+14.) (optional) configure a swap file if running on very low-memory instance
 ‎
 ‎
