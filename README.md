@@ -13,7 +13,7 @@ first things to do when setting up a vps
 
 ‎6.) update the system: "sudo apt update && sudo apt upgrade" and then reboot if required
 
-‎7.) install basic utils: ufw, fail2ban, unattended-upgrades, micro, curl, wget, openssh-server (if not yet installed)
+‎7.) install basic utils: ufw, fail2ban, unattended-upgrades, openssh-server (if not yet installed)
 
 ‎8.) install laptop's ssh public key to the user's authorized_keys if not yet installed and configure sshd config to accept public key auth 
 
