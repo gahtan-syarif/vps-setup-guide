@@ -34,7 +34,7 @@ first things to do when setting up a vps, listed in order:
 
 16.) set up a vpn network between your vps and your connecting devices (easiest way is to use tailscale or wireguard)
 
-17.) set ufw to restrict ssh access to the vpn interface/subnet 
+17.) set ufw to restrict ssh access to the vpn interface/subnet so that devices outside the vpn network wouldnt be able to connect
 
 18.) reboot the system and verify that all configured services starts and runs properly
 
