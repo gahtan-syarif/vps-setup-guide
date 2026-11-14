@@ -23,7 +23,7 @@ first things to do when setting up a vps
 
 ‎11.) install and enable fail2ban 
 
-‎12.) install and enable unattended-upgrades
+‎12.) install and enable unattended-upgrades (you can also optionally configure it to do automatic reboots if you dont want to do it manually)
 
 13.) configure a swap file if running on very low-memory instance
 
