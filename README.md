@@ -13,24 +13,26 @@ first things to do when setting up a vps
 
 ‎6.) update the system: "sudo apt update && sudo apt upgrade -y" and then reboot if required
 
-7.) change the system's default text editor to your preferred text editor
+7.) check if system clock is synchronized properly and that automatic time synchronization is enabled
 
-‎8.) install laptop's ssh public key to the user's authorized_keys if not yet installed (make sure the corresponding private key is password-protected) and configure sshd config to make public-key authentication mandatory as well as disabling root login
+8.) change the system's default text editor to your preferred text editor
 
-‎9.) enable sshd (or reload if already active and enabled) and make sure to test the ssh connection from a separate terminal to ensure public-key authentication is working properly and connections using unauthorized keys are being rejected
+‎9.) install laptop's ssh public key to the user's authorized_keys if not yet installed (make sure the corresponding private key is password-protected) and configure sshd config to make public-key authentication mandatory as well as disabling root login
 
-‎10.) install ufw and set it to default deny incoming and allow outgoing (make sure to still allow port 22/tcp incoming or else ssh will be locked out) and then enable it 
+‎10.) enable sshd (or reload if already active and enabled) and make sure to test the ssh connection from a separate terminal to ensure public-key authentication is working properly and connections using unauthorized keys are being rejected
 
-‎11.) install and enable fail2ban 
+‎11.) install ufw and set it to default deny incoming and allow outgoing (make sure to still allow port 22/tcp incoming or else ssh will be locked out) and then enable it 
 
-‎12.) install and enable unattended-upgrades (you can also optionally configure it to do automatic reboots if you dont want to do it manually)
+‎12.) install and enable fail2ban 
 
-13.) configure a swap file if running on very low-memory instance
+‎13.) install and enable unattended-upgrades (you can also optionally configure it to do automatic reboots if you dont want to do it manually)
+
+14.) configure a swap file if running on very low-memory instance
 
 
-14.) (optional, strongly recommended) set up a wireguard (or other) vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the vpn interface/subnet 
+15.) (optional, strongly recommended) set up a wireguard (or other) vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the vpn interface/subnet 
 
-15.) reboot the system and verify that all configured services starts and runs properly
+16.) reboot the system and verify that all configured services starts and runs properly
 
 
 congrats, your vps is now all set up and ready for further configuration. you can now proceed with installing and configuring whatever software and services you need for your intended use of the vps
