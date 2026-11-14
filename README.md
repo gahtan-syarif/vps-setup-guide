@@ -23,9 +23,9 @@ first things to do when setting up a vps
 
 ‎11.) install ufw and set it to default deny incoming and allow outgoing (make sure to still allow port 22/tcp incoming or else ssh will be locked out) and then enable it 
 
-‎12.) install and enable fail2ban 
+‎12.) install and enable fail2ban to automatically ban scanners
 
-‎13.) install and enable unattended-upgrades (you can also optionally configure it to do automatic reboots if you dont want to do it manually)
+‎13.) install and enable unattended-upgrades to enable automatic security updates (you can also optionally configure it to do automatic reboots as well as non-security updates if you dont want to do it manually)
 
 14.) configure a swap file if running on very low-memory instance
 
