@@ -1,5 +1,5 @@
 # vps-setup-guide
-first things to do when setting up a vps
+first things to do when setting up a vps, listed in order:
 
 ‎1.) create the ubuntu vps (use latest available lts version) 
 
