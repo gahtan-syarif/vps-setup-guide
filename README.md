@@ -28,7 +28,7 @@ first things to do when setting up a vps
 13.) configure a swap file if running on very low-memory instance
 
 
-14.) (optional) set up a wireguard (or other) vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the vpn interface/subnet 
+14.) (optional, strongly recommended) set up a wireguard (or other) vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the vpn interface/subnet 
 
 15.) reboot the system and verify that all configured services starts and runs properly
 
