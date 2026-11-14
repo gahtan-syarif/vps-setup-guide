@@ -15,20 +15,18 @@ first things to do when setting up a vps
 
 7.) change the system's default text editor to your preferred text editor
 
-‎8.) install laptop's ssh public key to the user's authorized_keys if not yet installed and configure sshd config to accept public key auth 
+‎8.) install laptop's ssh public key to the user's authorized_keys if not yet installed and configure sshd config to accept public key auth and disable password auth as well as root login
 
 ‎9.) enable sshd and make sure to test the ssh connection from a separate terminal and check if public key auth is working properly 
 
-‎10.) configure sshd config to disable password authentication and root login and then reload sshd 
+‎10.) install ufw and set it to default deny incoming and allow outgoing (make sure to still allow port 22/tcp incoming or else ssh will be locked out) and then enable it 
 
-‎11.) install ufw and set it to default deny incoming and allow outgoing (make sure to still allow port 22/tcp incoming or else ssh will be locked out) and then enable it 
+‎11.) install and enable fail2ban 
 
-‎12.) install and enable fail2ban 
+‎12.) install and enable unattended-upgrades
 
-‎13.) install and enable unattended-upgrades
-
-14.) configure a swap file if running on very low-memory instance
+13.) configure a swap file if running on very low-memory instance
 
 
-15.) (optional) set up a wireguard (or other) vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the vpn interface/subnet 
+14.) (optional) set up a wireguard (or other) vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the vpn interface/subnet 
 ‎
