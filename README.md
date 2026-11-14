@@ -25,7 +25,7 @@ first things to do when setting up a vps
 
 ‎12.) install and enable fail2ban to automatically ban scanners
 
-‎13.) install and enable unattended-upgrades to enable automatic security updates (you can also optionally configure it to do automatic reboots as well as non-security updates if you dont want to do it manually)
+‎13.) install and enable unattended-upgrades to enable automatic security updates and schedule it to your liking (you can also optionally configure it to do automatic reboots as well as non-security updates if you dont want to do it manually)
 
 14.) configure a swap file if running on very low-memory instance
 
