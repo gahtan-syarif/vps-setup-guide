@@ -15,7 +15,7 @@ first things to do when setting up a vps
 
 7.) change the system's default text editor to your preferred text editor
 
-‎8.) install laptop's ssh public key to the user's authorized_keys if not yet installed and configure sshd config to accept public key auth and disable password auth as well as root login
+‎8.) install laptop's ssh public key to the user's authorized_keys if not yet installed (make sure the corresponding private key is password-protected) and configure sshd config to accept public key auth and disable password auth as well as root login
 
 ‎9.) enable sshd (or reload if already active and enabled) and make sure to test the ssh connection from a separate terminal and check if authentication is working properly as configured
 
