@@ -17,7 +17,7 @@ first things to do when setting up a vps
 
 ‎8.) install laptop's ssh public key to the user's authorized_keys if not yet installed (make sure the corresponding private key is password-protected) and configure sshd config to make public-key authentication mandatory as well as disabling root login
 
-‎9.) enable sshd (or reload if already active and enabled) and make sure to test the ssh connection from a separate terminal and check if public-key authentication is being enforced correctly and unauthorized connections are being rejected
+‎9.) enable sshd (or reload if already active and enabled) and make sure to test the ssh connection from a separate terminal and check if public-key authentication is being enforced correctly and connections using unauthorized keys are being rejected
 
 ‎10.) install ufw and set it to default deny incoming and allow outgoing (make sure to still allow port 22/tcp incoming or else ssh will be locked out) and then enable it 
 
