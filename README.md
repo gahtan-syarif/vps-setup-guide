@@ -32,9 +32,11 @@ first things to do when setting up a vps, listed in order:
 15.) configure a swap file if running on very low-memory instance
 
 
-16.) (optional, strongly recommended) set up a wireguard (or other) vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the vpn interface/subnet 
+16.) set up a vpn network between your vps and your connecting devices (easiest way is to use tailscale or wireguard)
 
-17.) reboot the system and verify that all configured services starts and runs properly
+17.) set ufw to restrict ssh access to the vpn interface/subnet 
+
+18.) reboot the system and verify that all configured services starts and runs properly
 
 
 congrats, your vps is now all set up and ready for further configuration. you can now proceed with installing and configuring whatever software and services you need for your intended use of the vps
