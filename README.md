@@ -21,7 +21,7 @@ first things to do when setting up a vps
 
 ‎10.) configure sshd config to disable password authentication and root login and then reload sshd 
 
-‎11.) install ufw and set it to default deny incoming and allow outgoing (make sure to still allow port 22 incoming or else ssh will be locked out) and then enable it 
+‎11.) install ufw and set it to default deny incoming and allow outgoing (make sure to still allow port 22/tcp incoming or else ssh will be locked out) and then enable it 
 
 ‎12.) install and enable fail2ban 
 
@@ -30,5 +30,5 @@ first things to do when setting up a vps
 14.) configure a swap file if running on very low-memory instance
 
 
-15.) (optional) set up a wireguard (or other) vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the wireguard interface/subnet 
+15.) (optional) set up a wireguard (or other) vpn network between your vps and your connecting devices and then set ufw to restrict ssh access to the vpn interface/subnet 
 ‎
