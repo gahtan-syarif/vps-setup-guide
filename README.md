@@ -1,11 +1,11 @@
 # vps-setup-guide
 first things to do when setting up a vps, listed in order:
 
-‎1.) create the ubuntu vps (use latest available lts version) 
+‎1.) create the vps (use latest available ubuntu lts version or debian stable) 
 
 ‎2.) access vps through web console 
 
-3.) check if sshd is active, and if it is, immediately stop and disable it for now
+3.) check if sshd is active, and if it is, immediately stop and disable it for now (in ubuntu, make sure to also disable the socket)
 
 ‎4.) change root password to a strong one if not already
 
