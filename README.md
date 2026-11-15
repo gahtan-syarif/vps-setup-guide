@@ -7,15 +7,15 @@ first things to do when setting up a vps, listed in order:
 
 3.) check if sshd is active, and if it is, immediately stop and disable it for now (in ubuntu, make sure to also disable the socket)
 
-‎4.) change root password to a strong one if not already
+4.) Create a new non-root user with a strong password and give it sudo privileges (if one doesn't exist yet), then switch to it
 
-5.) set timezone and hostname if not yet set correctly
+‎5.) change root password to a strong one if not already or lock the password entirely
 
-‎6.) Create a new non-root user with a strong password and give it sudo privileges (if one doesn't exist yet), then switch to it
+6.) set timezone and hostname if not yet set correctly
 
 ‎7.) update the system: "sudo apt update && sudo apt upgrade -y" and then reboot if required
 
-8.) check if system clock is synchronized properly and that automatic time synchronization is enabled
+8.) check if system clock is synchronized properly and that automatic time synchronization is enabled (using systemd-timesyncd or chrony)
 
 9.) change the system's default text editor to your preferred text editor
 
