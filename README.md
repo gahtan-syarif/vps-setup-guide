@@ -7,7 +7,7 @@ first things to do when setting up a vps, listed in order:
 
 3.) check if sshd is active, and if it is, immediately stop and disable it for now (in ubuntu, make sure to also disable the socket)
 
-4.) Create a new non-root user with a strong password and give it sudo privileges (if one doesn't exist yet), then switch to it
+4.) Create a new non-root user with a strong password and give it sudo privileges (if one doesn't exist yet), then switch to it and check if sudo works
 
 ‎5.) change root password to a strong one if not already or lock the password entirely
 
@@ -25,7 +25,7 @@ first things to do when setting up a vps, listed in order:
 
 ‎12.) install ufw and set it to default deny incoming and allow outgoing (make sure to still allow port 22/tcp incoming or else ssh will be locked out) and then enable it 
 
-‎13.) install and enable fail2ban to automatically ban scanners
+‎13.) install and enable fail2ban and make sure sshd jail is enabled
 
 ‎14.) install and enable unattended-upgrades for automatic security updates and schedule it to your liking (you can also optionally configure it to do automatic reboots as well as non-security updates if you dont want to do it manually)
 
