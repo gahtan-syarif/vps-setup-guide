@@ -5,7 +5,7 @@ first things to do when setting up a vps, listed in order:
 
 ‎2.) access vps through web console 
 
-3.) check if sshd is active, and if it is, immediately stop and disable it for now (in ubuntu, make sure to also disable the socket)
+3.) check if sshd is active, and if it is, immediately stop and disable it for now (in ubuntu, make sure to also stop and disable the socket)
 
 4.) Create a new non-root user with a strong password and give it sudo privileges (if one doesn't exist yet), then switch to it and check if sudo works
 
