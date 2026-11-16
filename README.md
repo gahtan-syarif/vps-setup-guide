@@ -27,7 +27,7 @@ first things to do when setting up a vps, listed in order:
 
 ‎13.) install and enable fail2ban and make sure sshd jail is enabled
 
-‎14.) set up and configure automatic security updates (you can do this with unattended-upgrades on ubuntu/debian and dnf-automatic on fedora/rhel) and schedule it to your liking (you can also optionally configure it to do automatic reboots as well as non-security updates if you dont want to do it manually)
+‎14.) set up and configure daily automatic security updates (you can do this with unattended-upgrades on ubuntu/debian and dnf-automatic on fedora/rhel) and schedule it to your liking (you can also optionally configure it to do non-security updates as well as automatic reboots if you dont want to do it manually)
 
 15.) configure a swap file if running on very low-memory instance
 
