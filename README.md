@@ -38,7 +38,7 @@ first things to do when setting up a vps, listed in order:
 
 18.) reboot the system and verify that all configured services starts and runs properly
 
-19.) at this point, if the vps provider offers snapshot functionality, create a full vps snapshot as a clean restore point to fall back on if something goes wrong in the future
+19.) at this point, if the vps provider offers snapshot functionality, you can optionally create a full vps snapshot as a clean restore point to fall back on if something goes wrong in the future
 
 congrats, your vps is now all set up and ready for further configuration. you can now proceed with installing and configuring whatever software and services you need for your intended use of the vps
 ‎
