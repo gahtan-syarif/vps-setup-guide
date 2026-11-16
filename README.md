@@ -13,9 +13,9 @@ first things to do when setting up a vps, listed in order:
 
 6.) set timezone and hostname if not yet set correctly
 
-‎7.) update the system: "sudo apt update && sudo apt upgrade -y" and then reboot if required
+‎7.) upgrade all packages and then reboot if required
 
-8.) check if system clock is synchronized properly and that automatic time synchronization is enabled (using systemd-timesyncd or chrony)
+8.) check and make sure that system clock is synchronized properly and that automatic time synchronization is enabled (using systemd-timesyncd or chrony)
 
 9.) change the system's default text editor to your preferred text editor
 
